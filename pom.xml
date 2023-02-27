@@ -11,26 +11,6 @@
     <properties>
         <maven.compiler.source>9.0.4</maven.compiler.source>
         <maven.compiler.target>9.0.4</maven.compiler.target>
-        <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>exec-maven-plugin</artifactId>
-            <version>3.0.0</version>
-            <executions>
-                <execution>
-                    <phase>test</phase>
-                    <goals>
-                        <goal>java</goal>
-                    </goals>
-                    <configuration>
-                        <exec.mainClass>com.firsttesting.SeleniumTest</exec.mainClass>
-                        <arguments>
-                            <argument>Hello</argument>
-                            <argument>Developer!</argument>
-                        </arguments>
-                    </configuration>
-                </execution>
-            </executions>
-        </plugin>
     </properties>
     <build>
         <defaultGoal>package</defaultGoal>
