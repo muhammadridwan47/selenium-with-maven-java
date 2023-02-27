@@ -11,8 +11,8 @@ import org.openqa.selenium.io.FileHandler;
 import java.io.File;
 
 public class SeleniumTest {
-
-    public static void main(String[] args) throws Exception {
+     //public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
         WebDriver driver = new ChromeDriver();
         driver.get("https://gobeyond-dev.mytens.id/login");
         driver.findElement(new By.ById("input-nik-email")).sendKeys("helloworld@gmail.com");
